@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="PostgreSQL - d1j338c0piikp1@ec2-54-75-246-118.eu-west-1.compute.amazonaws.com" uuid="47b43fd8-43ac-406d-95b1-f0fafe1e245d">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-54-75-246-118.eu-west-1.compute.amazonaws.com:5432/d1j338c0piikp1</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="MariaDB - heroku_a376af7b0e580f5@eu-cdbr-west-01.cleardb.com" uuid="7bc3276f-8e29-4b47-bb29-d68bea828818">
+      <driver-ref>mariadb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://eu-cdbr-west-01.cleardb.com:3306/heroku_a376af7b0e580f5</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
