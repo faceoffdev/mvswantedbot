@@ -67,7 +67,7 @@ class Person extends Model
         }
 
         $person = $person->when($birthDate, function ($query) use ($birthDate) {
-            return $query->whereDate('birth_date', $birthDate);
+            return $query->whereDate('birth_date', new Carbon($birthDate));
         })
             ->first();
 
